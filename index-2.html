@@ -15,6 +15,18 @@
                 line-height: 32px !important;
             }
         }
+
+        @media (min-width: 601px) {
+            table tr:nth-child(3) td table tr:nth-child(6) {
+                display: none;
+            }
+        }
+
+        @media (max-width: 600px) {
+            table tr:nth-child(3) td table tr:nth-child(5) {
+                display: none;
+            }
+        }
     </style>
 </head>
 
@@ -82,40 +94,104 @@
                         </td>
                     </tr>
                     <tr>
-                        <td bgcolor="#ffffff" align="left">
+                        <td bgcolor="#ffffff" align="left" style="padding-bottom: 30px;">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                 <tr>
-                                    <td bgcolor="#ffffff" align="center" style="padding: 20px 10px 60px 30px;">
+                                    <td bgcolor="#ffffff" align="center" style="padding: 20px 10px;">
                                         <table border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td align="center" style="border-radius: 3px;" bgcolor="#BE1128"><a
                                                         href="#" target="_blank"
-                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #BE1128; display: inline-block;">
+                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px; border-radius: 2px; border: 1px solid #BE1128; display: inline-block;">
                                                         Từ chối</a></td>
                                             </tr>
                                         </table>
                                     </td>
-                                    <td bgcolor="#ffffff" align="center" style="padding: 20px 0px 60px 0px;">
+                                    <td bgcolor="#ffffff" align="center" style="padding: 20px 10px;">
                                         <table border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td align="center" style="border-radius: 3px;" bgcolor="#F7A308"><a
                                                         href="#" target="_blank"
-                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #F7A308; display: inline-block;">
+                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px; border-radius: 2px; border: 1px solid #F7A308; display: inline-block;">
                                                         Đề nghị làm rõ</a></td>
                                             </tr>
                                         </table>
                                     </td>
-                                    <td bgcolor="#ffffff" align="center" style="padding: 20px 30px 60px 0px;">
+                                    <td bgcolor="#ffffff" align="center" style="padding: 20px 10px;">
+                                        <table border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td align="center" style="border-radius: 3px;" bgcolor="#3c8dbc"><a
+                                                        href="#" target="_blank"
+                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px; border-radius: 2px; border: 1px solid #3c8dbc; display: inline-block;">
+                                                        Lấy ý kiến</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td bgcolor="#ffffff" align="center" style="padding: 20px 10px;">
                                         <table border="0" cellspacing="0" cellpadding="0">
                                             <tr>
                                                 <td align="center" style="border-radius: 3px;" bgcolor="#4FA800"><a
                                                         href="#" target="_blank"
-                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #4FA800; display: inline-block;">
+                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px; border-radius: 2px; border: 1px solid #4FA800; display: inline-block;">
                                                         Duyệt</a></td>
                                             </tr>
                                         </table>
                                     </td>
 
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#ffffff" align="left">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td bgcolor="#ffffff" align="center" style="padding: 10px 30px;">
+                                        <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+                                            <tr>
+                                                <td align="center" style="border-radius: 3px;" bgcolor="#BE1128"><a
+                                                        href="#" target="_blank"
+                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 0; border-radius: 2px; display: inline-block; width: 100%;">
+                                                        Từ chối</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#ffffff" align="center" style="padding: 10px 30px;">
+                                        <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+                                            <tr>
+                                                <td align="center" style="border-radius: 3px;" bgcolor="#F7A308"><a
+                                                        href="#" target="_blank"
+                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 0; border-radius: 2px; display: inline-block; width: 100%;">
+                                                        Đề nghị làm rõ</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#ffffff" align="center" style="padding: 10px 30px;">
+                                        <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+                                            <tr>
+                                                <td align="center" style="border-radius: 3px;" bgcolor="#3c8dbc"><a
+                                                        href="#" target="_blank"
+                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 0; border-radius: 2px; display: inline-block; width: 100%;">
+                                                        Lấy ý kiến</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="#ffffff" align="center" style="padding: 10px 30px;">
+                                        <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+                                            <tr>
+                                                <td align="center" style="border-radius: 3px;" bgcolor="#4FA800"><a
+                                                        href="#" target="_blank"
+                                                        style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 0; border-radius: 2px; display: inline-block; width: 100%;">
+                                                        Duyệt</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
                                 </tr>
                             </table>
                         </td>
